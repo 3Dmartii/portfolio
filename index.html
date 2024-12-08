@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -12,9 +12,11 @@
     body,
     .site-wrap,
     footer {
+      font-size: 5px;
       background-color: black;
       color: white;
-      font-family: 'Shantell Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300; /* Light for the body text */
     }
 
     .site-section {
@@ -45,10 +47,11 @@
     }
 
     .portfolio-text {
-      font-size: 16px;
+      font-size: 18px;
       color: white;
-      font-weight: 600;
-      font-style: italic;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 200; /* Extra light for descriptions */
+      font-style: italic; /* Italic for descriptions */
       margin-top: 1px;
       opacity: 1;
       transition: opacity 0.3s ease;
@@ -58,12 +61,18 @@
       margin-top: 50px;
       font-size: 2.5rem;
       color: white;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500; /* Regular for your name */
     }
 
     .site-section p {
-      margin-top: 20px;
-      font-size: 1.2rem;
-      white-space: pre-line;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.1rem; /* Slightly larger text */
+      font-weight: 300; /* Light text */
+      color: #ddd; /* Light gray text color */
+      line-height: 1.8; /* Increase line height */
+      text-align: center; /* Center-align the text */
+      margin-top: 0; /* Remove extra space between paragraphs */
     }
 
     footer {
@@ -97,9 +106,8 @@
 
     <!-- Main Section -->
     <div class="site-section">
-      <h1>Martii 3D</h1>
-      <p>Hey there, I'm a 3D artist who creates enviroments.
-Feel free to check out my work here :)</p>
+      <h1 style="line-height: 0.1;">Martii 3D</h1>
+      <p style="line-height: 1.2;">Hey there, I'm a 3D artist.<br>Feel free to check out my work here :)</p>
     </div>
 
     <!-- Portfolio Section -->
